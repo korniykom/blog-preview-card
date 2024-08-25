@@ -4,7 +4,7 @@ export default function Card() {
   return (
     <div className="flex h-[522px] w-[384px] flex-col items-center rounded-[20px] border-[1px] border-gray-950 bg-white drop-shadow-customShadow">
       <svg
-        className="my-[20px] rounded-[20px]"
+        className="my-[24px] rounded-[20px]"
         xmlns="http://www.w3.org/2000/svg"
         width="336"
         height="201"
