@@ -7,7 +7,7 @@ export default {
         customShadow: "8px 8px 0 rgb(0,0,0)",
       },
       fontFamily: {
-        sans: "Figtree",
+        figtree: "Figtree",
       },
     },
   },

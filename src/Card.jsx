@@ -4,10 +4,10 @@ export default function Card() {
   return (
     <div className="flex h-[522px] w-[384px] flex-col items-center rounded-[20px] border-[1px] border-gray-950 bg-white drop-shadow-customShadow">
       <svg
-        className="my-[24px] rounded-[20px]"
+        className="my-[24px] rounded-[10px]"
         xmlns="http://www.w3.org/2000/svg"
         width="336"
-        height="201"
+        height="200"
         fill="none"
         viewBox="0 0 336 201"
       >
@@ -106,13 +106,13 @@ export default function Card() {
         <span className="mb-3 flex h-[29px] w-[80px] items-center justify-center rounded bg-[#F4d04e] text-sm font-extrabold text-gray-950">
           Learning
         </span>
-        <p className="mb-3 text-sm font-medium text-gray-950">
+        <p className="font-figtree mb-3 text-[14px] font-medium leading-[21px] text-gray-950">
           Published 21 Dec 2023
         </p>
-        <p className="mb-3 text-2xl font-extrabold text-gray-950 hover:cursor-pointer hover:text-[#F4d04e]">
-          HTML & CSS foundations
+        <p className="font-figtree mb-3 text-[24px] font-extrabold leading-[36px] text-gray-950 hover:cursor-pointer hover:text-[#F4d04e]">
+          HTML & CSS foundations{" "}
         </p>
-        <p className="mb-6 text-base font-medium text-gray-500">
+        <p className="font-figtree mb-6 text-[16px] font-medium leading-[24px] text-gray-500">
           These languages are the backbone of every website, defining structure,
           content, and presentation.
         </p>
@@ -122,7 +122,9 @@ export default function Card() {
             alt="profile picture"
             className="mr-[12px] h-[32px]"
           />
-          <p className="text-sm font-extrabold text-gray-950">Greg Hooper</p>
+          <p className="text-[14px] font-extrabold leading-[21px] text-gray-950">
+            Greg Hooper
+          </p>
         </div>
       </div>
     </div>
